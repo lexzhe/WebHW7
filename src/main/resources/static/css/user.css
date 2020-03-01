@@ -1,0 +1,31 @@
+.user-page {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-page .user-info {
+    width: 60%;
+    display: inline-block;
+}
+
+.user-page .user-info .user-name {
+    font-size: 2rem;
+}
+
+.user-page .user-avatar {
+    width: 40%;
+    text-align: right;
+}
+
+.user-nav .backward, .user-nav .forward {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.user-nav a {
+    text-decoration: none;
+}
